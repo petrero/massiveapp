@@ -5,7 +5,7 @@ set :whenever_command, "bundle exec whenever"
 require "whenever/capistrano"
 
 set :scm, :git
-set :repository, "git://github.com/deployingrails/massiveapp.git"
+set :repository, "git://github.com/petrero/massiveapp.git"
 
 server "localhost", :web, :app, :db, :primary => true
 
